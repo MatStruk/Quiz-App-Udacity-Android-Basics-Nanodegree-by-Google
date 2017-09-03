@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_choose_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/backgroundColor"
+        android:orientation="vertical"
+        tools:context="com.example.android.thequizzworld.ChooseFormatActivity">
+
+        <Button
+            android:id="@+id/buttonLimitedTime"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="@color/buttonColor"
+            android:drawableLeft="@drawable/time"
+            android:drawableStart="@drawable/time"
+            android:drawableEnd="@drawable/arrow"
+            android:drawableRight="@drawable/arrow"
+            android:gravity="center"
+            android:paddingLeft="30dp"
+            android:paddingStart="30dp"
+            android:paddingRight="30dp"
+            android:paddingEnd="30dp"
+            android:text="@string/limited_time_button"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/textButtonColor"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonBasic"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="@color/buttonColor"
+            android:drawableLeft="@drawable/standard"
+            android:drawableStart="@drawable/standard"
+            android:drawableEnd="@drawable/arrow"
+            android:drawableRight="@drawable/arrow"
+            android:gravity="center"
+            android:paddingLeft="30dp"
+            android:paddingStart="30dp"
+            android:layout_marginBottom="10dp"
+            android:paddingRight="30dp"
+            android:paddingEnd="30dp"
+            android:text="@string/basic_button"
+            android:textColor="@color/textButtonColor"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonBack"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:drawableLeft="@drawable/button_back"
+            android:drawableStart="@drawable/button_back"
+            android:gravity="center"
+            android:paddingEnd="40dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="40dp"
+            android:paddingStart="30dp"
+            android:text="@string/back_button"
+            android:textColor="@color/textButtonColor"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>

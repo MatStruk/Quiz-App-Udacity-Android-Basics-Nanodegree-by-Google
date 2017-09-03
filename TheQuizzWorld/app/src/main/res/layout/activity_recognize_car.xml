@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/quizBackgroundColor"
+        android:orientation="vertical"
+        tools:context="com.example.android.thequizzworld.RecognizeCarActivity"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:paddingBottom="20dp"
+            android:paddingEnd="30dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="30dp"
+            android:paddingStart="15dp"
+            android:text="@string/first_recognize_question"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bmw3series"
+            android:scaleType="centerInside"
+            android:id="@+id/imageView"/>
+
+        <EditText
+            android:id="@+id/writeAnswer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textCapWords"
+            android:hint="@string/write_answer_hint"
+            android:textSize="16sp"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/button_border"
+            android:onClick="updateCurrentQuestionAndDisplayNewOne"
+            android:text="@string/submit"
+            android:textColor="@color/textAnswerColor" />
+
+
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:text="@string/your_score_is"
+            android:textColor="@color/scoreandseconds"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>

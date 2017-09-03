@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_choose_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/backgroundColor"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context="com.example.android.thequizzworld.TimeLimitedActivity">
+
+        <Button
+            android:id="@+id/buttonRacingTracks"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="2"
+            android:background="@color/buttonColor"
+            android:drawableEnd="@drawable/arrow"
+            android:drawableLeft="@drawable/racingtracks"
+            android:drawableRight="@drawable/arrow"
+            android:drawableStart="@drawable/racingtracks"
+            android:gravity="center"
+            android:paddingEnd="30dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingStart="30dp"
+            android:text="@string/racing_tracks_button"
+            android:textColor="@color/textButtonColor"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/buttonDefinitions"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="2"
+            android:background="@color/buttonColor"
+            android:drawableEnd="@drawable/arrow"
+            android:drawableLeft="@drawable/definitions"
+            android:drawableRight="@drawable/arrow"
+            android:drawableStart="@drawable/definitions"
+            android:gravity="center"
+            android:paddingEnd="30dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingStart="30dp"
+            android:text="@string/definitios_button"
+            android:textColor="@color/textButtonColor"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/buttonBrands"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="2"
+            android:background="@color/buttonColor"
+            android:drawableEnd="@drawable/arrow"
+            android:drawableLeft="@drawable/brands"
+            android:drawableRight="@drawable/arrow"
+            android:drawableStart="@drawable/brands"
+            android:gravity="center"
+            android:paddingEnd="30dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingStart="30dp"
+            android:text="@string/brands_button"
+            android:textColor="@color/textButtonColor"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonBack"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:drawableLeft="@drawable/button_back"
+            android:drawableStart="@drawable/button_back"
+            android:gravity="center"
+            android:paddingEnd="40dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="40dp"
+            android:paddingStart="30dp"
+            android:text="@string/back_button"
+            android:textColor="@color/textButtonColor"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</ScrollView>

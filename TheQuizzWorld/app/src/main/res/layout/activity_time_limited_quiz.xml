@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_play"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/quizBackgroundColor"
+        android:orientation="vertical"
+        tools:context="com.example.android.thequizzworld.TimeLimitedQuiz">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="40dp"
+                android:gravity="center"
+                android:paddingBottom="20dp"
+                android:paddingEnd="30dp"
+                android:paddingLeft="15dp"
+                android:paddingRight="30dp"
+                android:paddingStart="15dp"
+                android:text="@string/first_racing_tracks_question"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RadioButton
+                    android:id="@+id/answer1"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/button_border"
+                    android:button="@android:color/transparent"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:text="@string/first_racing_tracks_answer1"
+                    android:textColor="@color/textAnswerColor"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/answer2"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/button_border"
+                    android:button="@android:color/transparent"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:text="@string/first_racing_tracks_answer2"
+                    android:textColor="@color/textAnswerColor"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/answer3"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/button_border"
+                    android:button="@android:color/transparent"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:text="@string/first_racing_tracks_answer3"
+                    android:textColor="@color/textAnswerColor"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+                <RadioButton
+                    android:id="@+id/answer4"
+                    android:layout_width="match_parent"
+                    android:layout_height="60dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="12dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/button_border"
+                    android:button="@android:color/transparent"
+                    android:gravity="center"
+                    android:onClick="onClick"
+                    android:text="@string/first_racing_tracks_answer4"
+                    android:textColor="@color/textAnswerColor"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingTop="10dp"
+                android:text="@string/your_score_is"
+                android:textColor="@color/scoreandseconds"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="@string/seconds"
+            android:textColor="@color/scoreandseconds"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</ScrollView>

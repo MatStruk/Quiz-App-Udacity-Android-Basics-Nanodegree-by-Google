@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#01579B</color>
+    <color name="colorAccent">#2979FF</color>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="buttonColor">#2196F3</color>
+    <color name="textButtonColor">#FFFFFF</color>
+    <color name="textAnswerColor">#FFFFFF</color>
+    <color name="backgroundColor">#000000</color>
+    <color name="quizBackgroundColor">#FFFFFF</color>
+    <color name="scoreandseconds">#000000</color>
+</resources>

@@ -1,0 +1,339 @@
+<resources>
+    <string name="app_name" translatable="false">MotoQuiz</string>
+    <string name="check_knowledge">Check your knowledge about cars</string>
+    <string name="play_button">Play</string>
+    <string name="about_button" translatable="false">About</string>
+    <string name="next_button">Next</string>
+    <string name="category_play">Play</string>
+    <string name="category_about" translatable="false">About</string>
+    <string name="question_first">1. Which brands are owned by Volkswagen Group?</string>
+    <string name="your_score_is">Your score is:</string>
+    <string name="rules_button">Rules</string>
+    <string name="category_rules">Rules</string>
+    <string name="choose_category">Choose category</string>
+    <string name="choose_format">Choose format</string>
+    <string name="limited_time_button">Limited time</string>
+    <string name="limited_time_explanation">
+        &#x2022; 10 seconds to answer each question
+        \n\n&#x2022; Correct answer grants amount of points equal to seconds left
+        \n\n&#x2022; You can get up to 10 points for each answer
+        \n\n&#x2022; There are only closed questions of single choice.</string>
+    <string name="standard_explanation">
+        &#x2022; Unlimited amount of time for answer
+        \n\n&#x2022; Correct answer grants 1 point
+        \n\n&#x2022; Closed questions of single and multiple choice
+        \n\n&#x2022; Open questions as well
+        \n\n&#x2022; From 1 to 4 answers can be correct
+        \n\n&#x2022; Questions related to images</string>
+    <string name="basic_button" translatable="false">Standard</string>
+    <string name="seconds" translatable="false">10 s</string>
+    <string name="racing_tracks_button">Racing Tracks</string>
+    <string name="brands_button">Brands</string>
+    <string name="definitios_button">Terminology</string>
+    <string name="level_difficulty_hard">Difficulty: Hard</string>
+    <string name="level_difficulty_medium">Medium difficulty</string>
+    <string name="level_difficulty_easy">Difficulty: Easy</string>
+    <string name="first_racing_tracks_question">1. Nurburgring Nordschleife is known as&#8230;</string>
+    <string name="first_racing_tracks_answer1">Green Hell</string>
+    <string name="first_racing_tracks_answer2">Nordschleife Paradise</string>
+    <string name="first_racing_tracks_answer3">Track of 154 corners</string>
+    <string name="first_racing_tracks_answer4">Porsches ground</string>
+    <string name="second_racing_tracks_question">2. What is the name of the most famous polish track?</string>
+    <string name="second_racing_tracks_answer1" translatable="false">Ułęż</string>
+    <string name="second_racing_tracks_answer2" translatable="false">Tor Poznań</string>
+    <string name="second_racing_tracks_answer3" translatable="false">Silesia Ring</string>
+    <string name="second_racing_tracks_answer4" translatable="false">Tor Kielce</string>
+    <string name="third_racing_tracks_question">3. Which track is host of 24 Hours of Le Mans?</string>
+    <string name="third_racing_tracks_answer1" translatable="false">Circuit de Nevers Magny-Cours</string>
+    <string name="third_racing_tracks_answer2" translatable="false">Circuit Gilles Villeneuve</string>
+    <string name="third_racing_tracks_answer3" translatable="false">Circuit de Nevers Magny-Cours</string>
+    <string name="third_racing_tracks_answer4" translatable="false">Circuit de la Sarthe</string>
+    <string name="fourth_racing_tracks_question">4. What is the length of Nordschleife?</string>
+    <string name="fourth_racing_tracks_answer1" translatable="false">20,6 km</string>
+    <string name="fourth_racing_tracks_answer2" translatable="false">21,2 km</string>
+    <string name="fourth_racing_tracks_answer3" translatable="false">20,8 km</string>
+    <string name="fourth_racing_tracks_answer4" translatable="false">20,4 km</string>
+    <string name="fifth_racing_tracks_question">5. Which is NOT Czech racing circuit?</string>
+    <string name="fifth_racing_tracks_answer1" translatable="false">Automotodrom Brno</string>
+    <string name="fifth_racing_tracks_answer2" translatable="false">Autodrom Most</string>
+    <string name="fifth_racing_tracks_answer3" translatable="false">Autodrom Sosnova</string>
+    <string name="fifth_racing_tracks_answer4" translatable="false">Autodrom Domodemovo</string>
+    <string name="sixth_racing_tracks_question">6. Which production car is quickest at Nordschleife?</string>
+    <string name="sixth_racing_tracks_answer1" translatable="false">Porsche 918 Spyder</string>
+    <string name="sixth_racing_tracks_answer2" translatable="false">Radical SR8</string>
+    <string name="sixth_racing_tracks_answer3" translatable="false">Mercedes-AMG GT R</string>
+    <string name="sixth_racing_tracks_answer4" translatable="false">Lamborghini Huracan Performante</string>
+    <string name="seventh_racing_tracks_question">7. What was longest circuit that held F1 Grand Prix?</string>
+    <string name="seventh_racing_tracks_answer1" translatable="false">Pescara Circuit</string>
+    <string name="seventh_racing_tracks_answer2" translatable="false">Nurburgring Nordschleife</string>
+    <string name="seventh_racing_tracks_answer3" translatable="false">Sebring International Raceway</string>
+    <string name="seventh_racing_tracks_answer4" translatable="false">AVUS</string>
+    <string name="eighth_racing_tracks_question">8. Which track Ayrton Senna fatally crashed at?</string>
+    <string name="eighth_racing_tracks_answer1" translatable="false">Nurburgring GP</string>
+    <string name="eighth_racing_tracks_answer2" translatable="false">Circuit de Spa-Francorchamps</string>
+    <string name="eighth_racing_tracks_answer3" translatable="false">Autodromo Internazionale Enzo e Dino Ferrari</string>
+    <string name="eighth_racing_tracks_answer4" translatable="false">Silverstone Circuit</string>
+    <string name="ninth_racing_tracks_question">9. Laguna Seca is associated with which brand?</string>
+    <string name="ninth_racing_tracks_answer1" translatable="false">Toyota</string>
+    <string name="ninth_racing_tracks_answer2" translatable="false">Honda</string>
+    <string name="ninth_racing_tracks_answer3" translatable="false">Suzuki</string>
+    <string name="ninth_racing_tracks_answer4" translatable="false">Mazda</string>
+    <string name="tenth_racing_tracks_question">10. What was shortest circuit that held F1 Grand Prix?</string>
+    <string name="tenth_racing_tracks_answer1" translatable="false">Circuit de Monaco</string>
+    <string name="tenth_racing_tracks_answer2" translatable="false">Zeltweg Airfield</string>
+    <string name="tenth_racing_tracks_answer3" translatable="false">Brands Hatch</string>
+    <string name="tenth_racing_tracks_answer4" translatable="false">Fuji Speedway</string>
+    <string name="high_score_at_the_end">You did aweesome job! You deserve at least a Ferrari!</string>
+    <string name="medium_score_at_the_end">You did pretty well. You deserve Mercedes!</string>
+    <string name="low_score_at_the_end">Could be better. But we found something just for you. It is Fiat Panda!</string>
+    <string name="main_menu_button">Home</string>
+    <string name="first_definitions_question">1. Downsizing is&#8230;</string>
+    <string name="first_definitions_answer1">Reducing risk of accident</string>
+    <string name="first_definitions_answer2">Reducing size of car</string>
+    <string name="first_definitions_answer3">Reducing capacity and adding power with boosting device</string>
+    <string name="first_definitions_answer4">Reducing weight of car</string>
+    <string name="second_definitions_question">2. When oversteer occurs?</string>
+    <string name="second_definitions_answer1">When front wheels lose grip</string>
+    <string name="second_definitions_answer2">When rear wheels lose grip</string>
+    <string name="second_definitions_answer3">When all wheels lose grip</string>
+    <string name="second_definitions_answer4">When power-assisted steering is not working</string>
+    <string name="third_definitions_question">3. What is ABS?</string>
+    <string name="third_definitions_answer1">Active braking system</string>
+    <string name="third_definitions_answer2">An anti-lock braking system</string>
+    <string name="third_definitions_answer3">Autonomous braking system</string>
+    <string name="third_definitions_answer4">Emergency braking system</string>
+    <string name="fourth_definitions_question">4. What is Torsen?</string>
+    <string name="fourth_definitions_answer1">Limited-slip differential</string>
+    <string name="fourth_definitions_answer2">Racing series</string>
+    <string name="fourth_definitions_answer3">Rally series</string>
+    <string name="fourth_definitions_answer4">Type of hybrid car</string>
+    <string name="fifth_definitions_question">5. What TCS/ASR does?</string>
+    <string name="fifth_definitions_answer1">Warns driver about threat</string>
+    <string name="fifth_definitions_answer2">Detects and minimize the loss of steering control</string>
+    <string name="fifth_definitions_answer3">Prevents loss of traction</string>
+    <string name="fifth_definitions_answer4">Temporarily boosts engine\'s power</string>
+    <string name="sixth_definitions_question">6. What AWD stands for?</string>
+    <string name="sixth_definitions_answer1" translatable="false">Alternative Wheel Drive</string>
+    <string name="sixth_definitions_answer2" translatable="false">Automated Work Distributor</string>
+    <string name="sixth_definitions_answer3" translatable="false">Advanced Wheel Drive</string>
+    <string name="sixth_definitions_answer4" translatable="false">All Wheel Drive</string>
+    <string name="seventh_definitions_question">7. What ESP/ESC does?</string>
+    <string name="seventh_definitions_answer1">Prevents loss of traction</string>
+    <string name="seventh_definitions_answer2">Warns driver about threat</string>
+    <string name="seventh_definitions_answer3">Detects and minimize the loss of steering control</string>
+    <string name="seventh_definitions_answer4">Temporarily boosts engine\'s power</string>
+    <string name="eighth_definitions_question">8. What is Isofix?</string>
+    <string name="eighth_definitions_answer1">Toolkit to fix a car</string>
+    <string name="eighth_definitions_answer2">Soundproofing isolation system</string>
+    <string name="eighth_definitions_answer3">System update which fixes bugs</string>
+    <string name="eighth_definitions_answer4">Attachment points for child safety seats</string>
+    <string name="ninth_definitions_question">9. What MT stands for?</string>
+    <string name="ninth_definitions_answer1" translatable="false">Manual Transmission</string>
+    <string name="ninth_definitions_answer2" translatable="false">Manufacturing Technology</string>
+    <string name="ninth_definitions_answer3" translatable="false">Maximum Torque</string>
+    <string name="ninth_definitions_answer4" translatable="false">Medium Tank (level)</string>
+    <string name="tenth_definitions_question">10. What DPF stands for?</string>
+    <string name="tenth_definitions_answer1" translatable="false">Diesel particulate filter</string>
+    <string name="tenth_definitions_answer2" translatable="false">Diesel Powered Fuel</string>
+    <string name="tenth_definitions_answer3" translatable="false">Differential Pressure Feedback</string>
+    <string name="tenth_definitions_answer4" translatable="false">Diesel Powered Ford</string>
+    <string name="first_brands_question">1. What brand is known from slogan "Das Auto"?</string>
+    <string name="first_brands_answer1" translatable="false">Audi</string>
+    <string name="first_brands_answer2" translatable="false">Volkswagen</string>
+    <string name="first_brands_answer3" translatable="false">BMW</string>
+    <string name="first_brands_answer4" translatable="false">Skoda</string>
+    <string name="second_brands_question">2. Vuhl 05 is a car from&#8230;</string>
+    <string name="second_brands_answer1">Mexico</string>
+    <string name="second_brands_answer2">Portugal</string>
+    <string name="second_brands_answer3">France</string>
+    <string name="second_brands_answer4">Brazil</string>
+    <string name="third_brands_question">3. Which brands is owned by VW Group?</string>
+    <string name="third_brands_answer1" translatable="false">Lancia</string>
+    <string name="third_brands_answer2" translatable="false">Bentley</string>
+    <string name="third_brands_answer3" translatable="false">Rolls-Royce</string>
+    <string name="third_brands_answer4" translatable="false">Maserati</string>
+    <string name="fourth_brands_question">4. Which brand was acquired by PSA?</string>
+    <string name="fourth_brands_answer1" translatable="false">Renault</string>
+    <string name="fourth_brands_answer2" translatable="false">Tata</string>
+    <string name="fourth_brands_answer3" translatable="false">Opel</string>
+    <string name="fourth_brands_answer4" translatable="false">Dacia</string>
+    <string name="fifth_brands_question">5. What is the name of first production Bentley SUV?</string>
+    <string name="fifth_brands_answer1" translatable="false">EXP 9 F</string>
+    <string name="fifth_brands_answer2" translatable="false">Bentagya</string>
+    <string name="fifth_brands_answer3" translatable="false">Bentayga</string>
+    <string name="fifth_brands_answer4" translatable="false">EXP 10 F</string>
+    <string name="sixth_brands_question">6. What is the name of high performance division of Mercedes-Benz?</string>
+    <string name="sixth_brands_answer1" translatable="false">RS</string>
+    <string name="sixth_brands_answer2" translatable="false">M Sport</string>
+    <string name="sixth_brands_answer3" translatable="false">AMG</string>
+    <string name="sixth_brands_answer4" translatable="false">GT</string>
+    <string name="seventh_brands_question">7. What is the name of Swedish manufacturer of high-performance sports cars?</string>
+    <string name="seventh_brands_answer1" translatable="false">Koneinesegg</string>
+    <string name="seventh_brands_answer2" translatable="false">Koeniksegg</string>
+    <string name="seventh_brands_answer3" translatable="false">Koemigsegg</string>
+    <string name="seventh_brands_answer4" translatable="false">Koenigsegg</string>
+    <string name="eighth_brands_question">8. Which car names is fictional?</string>
+    <string name="eighth_brands_answer1" translatable="false">Mitsubishi Mini Active Urban Sandal</string>
+    <string name="eighth_brands_answer2" translatable="false">Mazda Carol Me Lady</string>
+    <string name="eighth_brands_answer3" translatable="false">Isuzu GIGA 20 Light Dump</string>
+    <string name="eighth_brands_answer4" translatable="false">SsangYong Naked</string>
+    <string name="ninth_brands_question">9. What is the name of Porsche 911 series produced from 2012?</string>
+    <string name="ninth_brands_answer1" translatable="false">997</string>
+    <string name="ninth_brands_answer2" translatable="false">993</string>
+    <string name="ninth_brands_answer3" translatable="false">991</string>
+    <string name="ninth_brands_answer4" translatable="false">964</string>
+    <string name="tenth_brands_question">10. Volkswagen emission scandal is commonly known as&#8230;</string>
+    <string name="tenth_brands_answer1" translatable="false">Emissiongate</string>
+    <string name="tenth_brands_answer2" translatable="false">Scandalgate</string>
+    <string name="tenth_brands_answer3" translatable="false">Dieselgate</string>
+    <string name="tenth_brands_answer4" translatable="false">Volkswagengate</string>
+    <string name="models">Car Models</string>
+    <string name="origins">Origins</string>
+    <string name="recognize_car">Recognize car</string>
+    <string name="submit">Submit</string>
+    <string name="first_models_question">1. Which Fords Fiestas are the same generation?</string>
+    <string name="first_models_answer1" translatable="false">Mk5</string>
+    <string name="first_models_answer2" translatable="false">Mk3</string>
+    <string name="first_models_answer3" translatable="false">Mk4</string>
+    <string name="first_models_answer4" translatable="false">Mk6</string>
+    <string name="first_models_explanation">Mk4 and Mk5 were same generation. The latter one was the name of facelifted model.</string>
+    <string name="second_models_question">2. Which models are produced by Skoda?</string>
+    <string name="second_models_answer1" translatable="false">Fabia</string>
+    <string name="second_models_answer2" translatable="false">Octavia</string>
+    <string name="second_models_answer3" translatable="false">Kodiaq</string>
+    <string name="second_models_answer4" translatable="false">Outlander</string>
+    <string name="second_models_explanation">Outlander is model produced by Mitsubishi.</string>
+    <string name="third_models_question">3. Which models can have hybrid versions?</string>
+    <string name="third_models_answer1" translatable="false">Tesla Model S</string>
+    <string name="third_models_answer2" translatable="false">Volkswagen Golf</string>
+    <string name="third_models_answer3" translatable="false">Porsche Panamera</string>
+    <string name="third_models_answer4" translatable="false">Kia Soul</string>
+    <string name="third_models_explanation" translatable="false">Tesla is pure electric, not hybrid.</string>
+    <string name="fourth_models_question">4. Which cars had premiere at Geneva Motor Show 2017?</string>
+    <string name="fourth_models_answer1" translatable="false">Ferrari 812 Superfast</string>
+    <string name="fourth_models_answer2" translatable="false">Alfa Romeo Stelvio QV</string>
+    <string name="fourth_models_answer3" translatable="false">Volvo XC60</string>
+    <string name="fourth_models_answer4" translatable="false">Ford Fiesta ST</string>
+    <string name="fourth_models_explanation">Alfa Romeo Stelvio QV was unveiled on November 16, 2016, in the Los Angeles Auto Show.</string>
+    <string name="fifth_models_question">5. Which cars are pure electric?</string>
+    <string name="fifth_models_answer1" translatable="false">Renault Zoe</string>
+    <string name="fifth_models_answer2" translatable="false">Nissan Leaf</string>
+    <string name="fifth_models_answer3" translatable="false">Tesla Model S</string>
+    <string name="fifth_models_answer4" translatable="false">Toyota Prius</string>
+    <string name="fifth_models_explanation">Toyota Prius is hybrid, combining combustion and electric engines.</string>
+    <string name="sixth_models_question">6. Which cars were produced longer than for 8  years?</string>
+    <string name="sixth_models_answer1" translatable="false">Volvo XC60</string>
+    <string name="sixth_models_answer2" translatable="false">Porsche 911 (997)</string>
+    <string name="sixth_models_answer3" translatable="false">Volvo XC90</string>
+    <string name="sixth_models_answer4" translatable="false">Fiat 126p</string>
+    <string name="sixth_models_explanation">Porsche 911 (997) was produced from 2005 to 2012.</string>
+    <string name="seventh_models_question">7. Which cars belongs to A-segment?</string>
+    <string name="seventh_models_answer1" translatable="false">Skoda Citigo</string>
+    <string name="seventh_models_answer2" translatable="false">Mazda 2</string>
+    <string name="seventh_models_answer3" translatable="false">Toyota Aygo</string>
+    <string name="seventh_models_answer4" translatable="false">Renault Clio</string>
+    <string name="seventh_models_explanation">Both, Renault Clio and Mazda 2, belongs to B-segment.</string>
+    <string name="eighth_models_question">8. Which brands are owned by the same company?</string>
+    <string name="eighth_models_answer1" translatable="false">Lamborghini</string>
+    <string name="eighth_models_answer2" translatable="false">Skoda</string>
+    <string name="eighth_models_answer3" translatable="false">Bentley</string>
+    <string name="eighth_models_answer4" translatable="false">Bugatti</string>
+    <string name="eighth_models_explanation">All brands were acquired by Volkswagen Group.</string>
+    <string name="ninth_models_question">9. Which cars were based on the same modular platform?</string>
+    <string name="ninth_models_answer1" translatable="false">Seat Ateca</string>
+    <string name="ninth_models_answer2" translatable="false">Audi TT Mk3</string>
+    <string name="ninth_models_answer3" translatable="false">Skoda Superb</string>
+    <string name="ninth_models_answer4" translatable="false">Audi A4 B9</string>
+    <string name="ninth_models_explanation">Audi A4 was based on MLB platform, not MQB.</string>
+    <string name="tenth_models_question">10. Which cars were TOP3 best selling in 2016 world wide?</string>
+    <string name="tenth_models_answer1" translatable="false">Ford Focus</string>
+    <string name="tenth_models_answer2" translatable="false">Toyota Corolla</string>
+    <string name="tenth_models_answer3" translatable="false">Volkswagen Golf</string>
+    <string name="tenth_models_answer4" translatable="false">Ford F-series</string>
+    <string name="tenth_models_explanation">Actually Ford Focus was on a fourth place.</string>
+    <string name="first_origins_question">1. Which brands are from Germany?</string>
+    <string name="first_origins_answer1" translatable="false">Smart</string>
+    <string name="first_origins_answer2" translatable="false">Opel</string>
+    <string name="first_origins_answer3" translatable="false">Lancia</string>
+    <string name="first_origins_answer4" translatable="false">Maserati</string>
+    <string name="first_origins_explanation">Lancia and Maserati are from Italy.</string>
+    <string name="second_origins_question">2. Which brands are from Stuttgart, Germany?</string>
+    <string name="second_origins_answer1" translatable="false">Porsche</string>
+    <string name="second_origins_answer2" translatable="false">Opel</string>
+    <string name="second_origins_answer3" translatable="false">Audi</string>
+    <string name="second_origins_answer4" translatable="false">Mercedes-Benz</string>
+    <string name="second_origins_explanation">Opel is from Rüsselsheim and Audi from Ingolstadt.</string>
+    <string name="third_origins_question">3. Which brands are from Poland?</string>
+    <string name="third_origins_answer1" translatable="false">Leopard</string>
+    <string name="third_origins_answer2" translatable="false">Proton</string>
+    <string name="third_origins_answer3" translatable="false">FSO</string>
+    <string name="third_origins_answer4" translatable="false">GAZ</string>
+    <string name="third_origins_explanation">Proton is from Malaysia and GAZ from Russia.</string>
+    <string name="fourth_origins_question">4. Which brands are from Italy?</string>
+    <string name="fourth_origins_answer1" translatable="false">Mazzanti</string>
+    <string name="fourth_origins_answer2" translatable="false">Pagani</string>
+    <string name="fourth_origins_answer3" translatable="false">Ferrari</string>
+    <string name="fourth_origins_answer4" translatable="false">Abarth</string>
+    <string name="fourth_origins_explanation">All brands are from Italy.</string>
+    <string name="fifth_origins_question">5. Which brands are from Seoul, South Korea?</string>
+    <string name="fifth_origins_answer1" translatable="false">Hyundai</string>
+    <string name="fifth_origins_answer2" translatable="false">Suzuki</string>
+    <string name="fifth_origins_answer3" translatable="false">Kia</string>
+    <string name="fifth_origins_answer4" translatable="false">SsangYong</string>
+    <string name="fifth_origins_explanation">Suzuki is from Japan.</string>
+    <string name="sixth_origins_question">6. Which brands are from Tokyo, Japan?</string>
+    <string name="sixth_origins_answer1" translatable="false">Acura</string>
+    <string name="sixth_origins_answer2" translatable="false">Honda</string>
+    <string name="sixth_origins_answer3" translatable="false">Mazda</string>
+    <string name="sixth_origins_answer4" translatable="false">Mitsubishi</string>
+    <string name="sixth_origins_explanation">Honda is from Hiroshima, Japan.</string>
+    <string name="seventh_origins_question">7. From what country was founder of Wankel engine?</string>
+    <string name="seventh_origins_answer1">Japan</string>
+    <string name="seventh_origins_answer2">Germany</string>
+    <string name="seventh_origins_answer3">South Korea</string>
+    <string name="seventh_origins_answer4">Italy</string>
+    <string name="seventh_origins_explanation">Felix Wankel was from Germany.</string>
+    <string name="eighth_origins_question">8. Where inventors of airbags come from?</string>
+    <string name="eighth_origins_answer1">Germany</string>
+    <string name="eighth_origins_answer2" translatable="false">USA</string>
+    <string name="eighth_origins_answer3">Italy</string>
+    <string name="eighth_origins_answer4">France</string>
+    <string name="eighth_origins_explanation">Invention is credited to Walter Linderer from Germany and American John W. Hetrick.</string>
+    <string name="ninth_origins_question">9. Which manufacturers have headquarter in Whitley, United Kingdom?</string>
+    <string name="ninth_origins_answer1" translatable="false">Land Rover</string>
+    <string name="ninth_origins_answer2" translatable="false">Rolls-Royce</string>
+    <string name="ninth_origins_answer3" translatable="false">Jaguar</string>
+    <string name="ninth_origins_answer4" translatable="false">Lotus</string>
+    <string name="ninth_origins_explanation">Lotus is from Norfolk and Rolls-Royce from Goodwood.</string>
+    <string name="tenth_origins_question">10. Which of these manufacturers are from the same country?</string>
+    <string name="tenth_origins_answer1" translatable="false">Saab</string>
+    <string name="tenth_origins_answer2" translatable="false">Rimac</string>
+    <string name="tenth_origins_answer3" translatable="false">Volvo</string>
+    <string name="tenth_origins_answer4" translatable="false">Koenigsegg</string>
+    <string name="tenth_origins_explanation">Rimac is croatian.</string>
+    <string name="write_answer_hint">Write your answer here</string>
+    <string name="first_recognize_question">1. This is BMW 3 series. But what is the 3-characters code for this type of body (Convertible)?</string>
+    <string name="first_recognize_explanation">E90 is sedan, E91 is Touring and E92 is coupe, while E93 is convertible.</string>
+    <string name="second_recognize_question">2. What is the name of this sporty Kia model?</string>
+    <string name="second_recognize_explanation">It is called Stinger and was revealed at North American International Auto Show in January 2017.</string>
+    <string name="third_recognize_question">3. What is the name of this Renault model?</string>
+    <string name="third_recognize_explanation">It is successor of Laguna and is called Talisman.</string>
+    <string name="fourth_recognize_question">4. What is the name of this Alfa Romeo SUV?</string>
+    <string name="fourth_recognize_explanation">It is Stelvio. This particular version is called Quadrifoglio.</string>
+    <string name="fifth_recognize_question">5. This is A110. But what manufacturer produced this model?</string>
+    <string name="fifth_recognize_explanation">It is French Alpine.</string>
+    <string name="sixth_recognize_question">6. What is the name of this Ferrari?</string>
+    <string name="sixth_recognize_explanation">This flagship model is called LaFerrari.</string>
+    <string name="seventh_recognize_question">7. What is the name of this Porsche?</string>
+    <string name="seventh_recognize_explanation">It is second generation of Panamera.</string>
+    <string name="eighth_recognize_question">8. Which model of BMW is it?</string>
+    <string name="eighth_recognize_explanation">This is i8 which combines electric and combustion engines.</string>
+    <string name="ninth_recognize_question">9. How is called the successor of Bugatti Veyron?</string>
+    <string name="ninth_recognize_explanation">It is Chiron.</string>
+    <string name="tenth_recognize_question">10. What is the name of special version of Lamborghini Huracan?</string>
+    <string name="tenth_recognize_explanation">It is Lamborghini Huracan Performante.</string>
+    <string name="back_button">Back</string>
+    <string name="congratulations_label">Congratulations</string>
+
+
+</resources>
